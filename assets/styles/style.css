@@ -22,7 +22,7 @@ ul{
 }
 
 h1, h2, h3{
-	margin: 1%;
+	padding-top: 5%;
 }
 
 /*all the buttons of the site*/
@@ -42,6 +42,7 @@ h2, h3{
 
 p{
 	padding-bottom: 7%;
+	text-align: center;
 }
 
 /*Header style*/
@@ -89,9 +90,6 @@ hr{
 	margin: 0 10%;
 }
 
-.presentation p{
-	text-align: center;
-}
 
 .presentation img{
 	width: 70%;
@@ -100,7 +98,8 @@ hr{
 
 /*social media*/
 .socialMedia{
-	margin: 7.5% 27.5%;
+	background-color: #f7f7f7;
+	padding: 8% 27.5%;
 }
 .icons ul{
 	display: flex;
@@ -114,4 +113,53 @@ hr{
 	justify-content: center;
 	font-weight: bold;
 }
+/*end social media*/
+
 /*main content*/
+.newApp{
+	margin: auto;
+	width: 60%;
+}
+
+.checkoutTitle{
+	display: flex;
+	flex-direction: column;
+	align-items: center; /*we have chosen column as aligment this time, so the properties are reversed*/
+}
+
+.appPlatforms{
+	display: flex;
+	justify-content: center;
+}
+
+.awesomenessTitle {
+	display: flex;
+}
+
+.awesomenessTitle h3{
+	margin-left: 3px;
+	align-self: center;
+}
+
+.awesomenessTitle img{
+	width: 28px;
+	height: 20px;
+	align-self: center;
+}
+
+.platform{
+	flex: 1;
+	width: 30%;
+	padding: 0 0.5%;
+}
+
+.platform_2{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+.platform p{
+	text-align: justify;
+	padding: 3% 2em 0 0;
+}
