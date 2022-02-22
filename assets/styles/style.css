@@ -6,6 +6,7 @@
 	font-family: Helvetica, Raleway, Arial, sans-serif;
 	margin: 0;
 	box-sizing: border-box;
+	line-height: 28px;
 }
 
 ul{
@@ -19,6 +20,7 @@ ul{
 
 .vert{
 	color: #3d9f96;
+	font-weight: medium;
 }
 
 h1, h2, h3{
@@ -116,18 +118,21 @@ hr{
 /*end social media*/
 
 /*main content*/
+/*new app section*/
 .newApp{
 	margin: auto;
 	width: 60%;
 }
 
 .checkoutTitle{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center; /*we have chosen column as aligment this time, so the properties are reversed*/
 }
 
 .appPlatforms{
+	width:100% ;
 	display: flex;
 	justify-content: center;
 }
@@ -177,7 +182,7 @@ hr{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	width: 30%;
+	width: 33%;
 	padding: 0 4%;
 }
 .platform_1 p{
@@ -195,5 +200,65 @@ hr{
 	display: flex;
 	justify-content: flex-end;
 	text-align: right;
-	padding: 3% 0 2em 0;
+	padding: 3% 0 0 2em;
 }
+
+.opinionSection{
+	background-color: #27242b;
+	margin: 15vh 0;
+	display: flex;
+	justify-content: center;
+}
+/*end new app*/
+
+/*opinion section*/
+.opinion{
+	width: 30%;
+	padding: 3% 0 5% 0;
+	color: white;
+}
+
+.opinion img{
+	width: 20%;
+	margin: auto 40%;
+}
+
+.opinion p{
+	margin: 10% 0;
+	padding: 0;
+}
+
+.opinion span{
+	display: inline-block;
+	width: 20%;
+	margin: auto 40%;
+}
+/*end opinion*/
+
+/*screenshots section*/
+.screenshotSection {
+	display: flex;
+	justify-content: center;
+}
+
+.screenshotSection div{
+	width: 43.5%;
+}
+
+.screenshotSection ul{
+	justify-content: space-between;
+	padding: 0;
+}
+
+.screenshotSection li{
+	margin-top: 5%;
+}
+
+.screenshotSection .title{
+	font-size: medium;
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+	margin-top: 1%;
+}
+/*end screenshots*/
