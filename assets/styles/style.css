@@ -132,6 +132,10 @@ hr{
 	justify-content: center;
 }
 
+.newApp p{
+	color: #7e7e7e;
+}
+
 .platform_1 .awesomenessTitle {
 	display: flex;
 	align-items: center;
