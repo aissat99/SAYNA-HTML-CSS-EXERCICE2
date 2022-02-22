@@ -132,16 +132,37 @@ hr{
 	justify-content: center;
 }
 
-.awesomenessTitle {
+.platform_1 .awesomenessTitle {
 	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 
-.awesomenessTitle h3{
-	margin-left: 3px;
+.platform_1 h3{
+	order: 2;	/*consequence of the flexbox*/
+	margin-left: 10px;
+}
+
+.platform_1 .awesomenessTitle img{
+	order: 1;
+	width: 28px;
+	height: 20px;
 	align-self: center;
 }
 
-.awesomenessTitle img{
+.platform_3 .awesomenessTitle {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.platform_3 h3{
+	order: 1;
+	margin-right: 10px;
+}
+
+.platform_3 .awesomenessTitle img{
+	order: 2;
 	width: 28px;
 	height: 20px;
 	align-self: center;
@@ -149,17 +170,26 @@ hr{
 
 .platform{
 	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	width: 30%;
-	padding: 0 0.5%;
+	padding: 0 4%;
 }
-
+.platform_1 p{
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+	padding: 3% 2em 0 0;
+}
 .platform_2{
 	width: 20%;
 	display: flex;
 	justify-content: center;
 }
-
-.platform p{
-	text-align: justify;
-	padding: 3% 2em 0 0;
+.platform_3 p{
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	padding: 3% 0 2em 0;
 }
