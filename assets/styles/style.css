@@ -29,8 +29,8 @@ h1, h2, h3{
 
 /*all the buttons of the site*/
 button{
-	padding: 1.5% 4%;
-	border-radius: 25px;
+	padding: 1% 7%;
+	border-radius: 30px;
 	border: none;
 	background-color: #3d9f96;
 	color: white;
@@ -297,7 +297,8 @@ header{
 /*footer*/
 footer{
 	width: 100%;
-	padding: 3.5% 0% 2.5% 18%;
+	padding: 3.5% 0% 0 0;
+	background-color: #f7f7f7;
 }
  footer p{
  	text-align: left;
@@ -305,12 +306,12 @@ footer{
 .infoEtContact{
 	display: flex;
 	justify-content: space-around;
-	background-color: #f7f7f7;
+	padding-left: 18%;
+	padding-bottom: 1%;
 }
 
 .aPropos{
 	width: 30%;
-	background-color: #f7f7f7;
 }
 
 .aPropos img{
@@ -332,6 +333,7 @@ footer{
 .copyright{
 	display: flex;
 	justify-content: space-between;
-	padding-right: 18%;
+	padding: 2% 15% 2.5% 22%;
 	color: #7e7e7e;
+	background-color: white;
 }
