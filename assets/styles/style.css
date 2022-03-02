@@ -239,10 +239,11 @@ hr{
 .screenshotSection {
 	display: flex;
 	justify-content: center;
+	background-color: #f7f7f7;
 }
 
 .screenshotSection div{
-	width: 43.5%;
+	width: 50%;
 }
 
 .screenshotSection ul{
@@ -262,3 +263,25 @@ hr{
 	margin-top: 1%;
 }
 /*end screenshots*/
+
+/*properties section*/
+.property, .property1, .property2{
+	display: flex;
+	width: 50%;
+	margin: 5% auto;
+}
+
+.property1{
+	flex-direction: row;
+}
+
+.property2{
+	flex-direction: row-reverse;
+}
+.property img{
+	width: 40% ;
+}
+
+.property .description{
+	width: 60%;
+}
