@@ -291,3 +291,47 @@ header{
 .property p{
 	text-align: left;
 }
+/*end properties section*/
+/*end main section*/
+
+/*footer*/
+footer{
+	width: 100%;
+	padding: 3.5% 0% 2.5% 18%;
+}
+ footer p{
+ 	text-align: left;
+ }
+.infoEtContact{
+	display: flex;
+	justify-content: space-around;
+	background-color: #f7f7f7;
+}
+
+.aPropos{
+	width: 30%;
+	background-color: #f7f7f7;
+}
+
+.aPropos img{
+	width: 85%;
+	margin: 0 7.5%;
+}
+
+.info{
+	width: 20%;
+}
+
+.info ul{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	color: #7e7e7e;
+}
+
+.copyright{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 18%;
+	color: #7e7e7e;
+}
