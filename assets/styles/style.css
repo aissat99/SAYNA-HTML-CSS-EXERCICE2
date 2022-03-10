@@ -333,7 +333,17 @@ footer{
 .copyright{
 	display: flex;
 	justify-content: space-between;
-	padding: 2% 15% 2.5% 22%;
+	padding: 2% 10% 2.5% 22%;
 	color: #7e7e7e;
 	background-color: white;
 }
+
+.socialMedia_footer{
+	width: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+/*end footer*/
+
+/*responsive*/
+@media
